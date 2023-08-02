@@ -1,0 +1,18 @@
+h1{
+    font-family: Impact; 
+    background-color: darkcyan; 
+    color:brown; 
+    border-color:blue; 
+    border-width: 10px; 
+    border-style:dashed;
+    font-size: 100px;
+
+    
+}
+
+table,th,td{
+    border: 1px solid black;
+    }
+table{
+    width:100%;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../hello.png">
+    <!-- <link rel="stylesheet" href="../Practice/forms.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+      
+    .frame{
+        padding:30px 30px 30px 400px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(247, 244, 244) ;
+    }
+    
+      .heading{
+            font-size: 5rem;
+            display:flex;
+            
+        } 
+        .welcome{
+            font-size: 1.2rem;
+            padding-bottom: 3rem;
+            width:80%;
+            line-height: 2rem;
+        }
+       
+        .personal{
+            width: 90%;  
+            background-color: rgb(255, 255, 255);  
+            padding-top: 0px;
+            border-color:  rgb(247, 244, 244);
+            padding-bottom: 2rem;
+             
+        }
+        .info{
+            font-size: 1.5rem;
+        }
+        .registration{
+            padding-top: 40px;
+            padding-left: 40px;
+            width:70%;
+            background-color: rgb(219, 215, 215);
+            border-radius: 12px;
+                  
+        }
+
+        .categories{
+            width:90%;   
+            background-color: rgb(255, 255, 255);  
+            padding-top: 40px;
+            border-color:  rgb(247, 244, 244);
+            padding-bottom: 2rem;
+        }
+        .areas{
+            font-size: 1.2rem;
+        }
+     .years{
+        width:90%;   
+        padding-left: 20px;
+        background-color: rgb(255, 255, 255);  
+        padding-top: 20px;
+        border-color:  rgb(247, 244, 244);
+        padding-bottom: 2rem;
+     }
+
+     .experience{
+        font-size: 1.2rem;
+        
+     }
+     .skills{
+        width:90%;
+        padding-left: 20px;
+        background-color: rgb(255, 255, 255);  
+        padding-top: 20px;
+        border-color:  rgb(247, 244, 244); 
+        padding-bottom: 2rem;  
+         }
+        .other{
+            font-size: 1.2rem;
+        }
+     .comments{
+        width:90%;
+        padding-left: 20px;
+        background-color: rgb(255, 255, 255);  
+        padding-top: 20px;
+        border-color:  rgb(247, 244, 244); 
+        padding-bottom: 2rem;  
+     }
+     .message{
+        font-size: 1.2rem;
+     }
+    
+     /* .fullname{
+        width: 50px;
+        color: aqua;
+     } */
+     
+    </style>
+</head>
+<link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Montserrat:wght@400;500;600&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<body class="frame">
+    <section class="header">
+        <h1 class="heading">Event Registration </h1>
+        <p class="welcome"> Welcome to our event registration page. 
+            Move quickly to secure your space for the hackathon.
+        </p>
+    </section>
+    <p></p>
+    <form class="registration">
+    <fieldset class="personal">
+        <legend class="info">Personal Info</legend>
+       <p>
+        <label for="fullname" style="font-size: ;">Full Name</label>
+        <input type="text" placeholder="Enter full name" required style="margin-left: 10px;">
+       </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="Email" placeholder="enter email" required style="margin-left: 45px;">
+        </p>
+        <p>
+            <label for="Phone number">Phone</label>
+            <input type="tel" id="Telephone Number" name="telephone number" placeholder="0000-000-0000" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required style="margin-left: 40px;">
+        </p>
+        <p>
+            <label for="gender">Gender</label>
+            <select value="gender" style="margin-left: 33px;">
+            <option value="male">Male</option>
+            <option value="female">Female</option>     
+            </select>       
+        </p>
+    </fieldset>
+<p></p>
+    <fieldset class="categories">
+        <legend class="areas">Categories</legend>
+        <input type="checkbox" id="ui/ux" name="ui/ux" value="ui/ux">
+        <label for="ui/ux"> UI/UX</label>
+        <p>
+            <input type="checkbox" id="FrontEnd" name="FrontEnd" value="FrontEnd">
+            <label for="FrontEnd">FrontEnd</label>
+        </p>
+        <p>
+            <input type="checkbox" id="backend" name="backend" value="backend">
+            <label for="BackEnd">BackEnd</label>
+        </p>
+    </fieldset>
+    <p></p>
+    <fieldset class="years">
+        <legend class="experience">Years of Experience</legend>
+        <input type="radio" id="0-1" name="0-1" value="0-1">
+        <label>0-1 years</label>
+        <p></p>
+        <input type="radio" id="1-2" name="1-2" value="1-2">
+        <label>1-2 years</label>
+        <p></p>
+        <input type="radio" id="3-5" name="3-5" value="3-5">
+        <label>3-5 years</label>
+
+    </fieldset>
+    <p></p>
+    <fieldset class="skills">
+        <legend class="other">Other Skills</legend>
+        <textarea placeholder="Add more skills you have" rows="5" cols="80"></textarea>
+    </fieldset>
+    <p></p>
+    <p></p>
+    <fieldset class="comments">
+        <Legend class="message">Comments</legend>
+        <textarea placeholder="make your comments" rows="5" cols="80"></textarea>
+    </fieldset>
+    <p></p>
+<section class="button">
+    <button class="btn btn-primary" type="submit" style="padding: 10px 20px 10px 20px;">Submit</button>
+    <button class="btn" type="reset" style="padding: 10px 20px 10px 20px; margin:10px;" >Reset</button>
+    </section>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

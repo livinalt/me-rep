@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<style>
+  body{
+    background-color: rgb(152, 152, 197);
+  }
+  h1{
+    margin: 20px;
+        font-size: 4rem;
+        color: rgb(250, 250, 250);
+    }
+    form{
+        margin:20px;
+        background-color: rgb(213, 213, 221);
+        width: 30%;
+        padding:30px;
+    }
+    legend{
+       padding-top:30px;
+        margin: 20px;
+        width:50%;
+        font-size: 1.2rem;
+    }
+    
+    label{
+        font-size: 1.2rem;
+        padding:20px;
+    }
+
+    input{
+        padding: 10px 30px;
+        border-radius: 12px;
+    }
+
+    button{
+        padding:5px 30px 5px 30px  ;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        margin: 20px;
+
+    }
+</style>
+
+<body>
+    <h1>Log In</h1>
+    <form>
+        <fieldset>
+            <legend>Enter Your Login Details</legend>
+            <label style="padding-right:50px;">Email</label>
+            <input type="email" placeholder="email address" required style="">        
+        <p></p>
+            <label>Password</label>
+            <input type="password" required placeholder="********">
+            <p></p>
+            
+        </fieldset>
+        <section class="auth">
+        <button type="button">Sign In</button>
+        <button type="button">Sign Up</button>
+    </section>
+    </form>
+</body>
+</html>

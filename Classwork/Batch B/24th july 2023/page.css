@@ -1,0 +1,30 @@
+.header{
+    text-align: right;
+    background-color:#FBA1B7 ;
+
+}
+
+.header a{
+    display:inline-block;
+    padding:20px;
+    }
+.top-container{
+    background-color: #FFD1DA;
+    margin-top: -30px;
+    text-align: center;
+}
+.middle-container{
+    background-color:#E8FFCE;
+    margin-top:-30px;
+    font-size: 2rem;
+    display: flex;
+    
+
+}
+a{
+    text-decoration: none;
+}
+
+iframe{
+    
+}
